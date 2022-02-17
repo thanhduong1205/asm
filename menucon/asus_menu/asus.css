@@ -1,0 +1,76 @@
+.box{
+    margin: 0px;
+    background-color: none;
+    box-shadow: 0px 0px 5px #ccc;
+}
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.column{
+    width: 25%;
+    float: left;
+}
+
+aside a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: #ccc;
+    font-family: 'Tahoma';
+    font-size: smaller;
+    padding: 5px;
+    display: block;
+}
+
+aside a:hover{
+    background-color: orangered;
+}
+
+.column .san-pham .box img{
+    width: 250px;
+    height: 150px;
+    border-radius: 0px;
+    margin: 0px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.san-pham{
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px gray;
+    text-align: center;
+    padding: 3px 3px;
+    float: left;
+}
+
+.san-pham .ten{
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+    color: brown;
+}
+
+.san-pham img{
+    max-width: 80%;
+}
+
+.san-pham .gia{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.san-pham .gia del{
+    color: gray;
+}
+
+.nav_dong1{
+    color: orangered;
+    font-weight: bolder;
+    text-align: left;
+    margin: 20px 50px;
+}
+
+.gia{
+    border: 0.1px double red;
+}

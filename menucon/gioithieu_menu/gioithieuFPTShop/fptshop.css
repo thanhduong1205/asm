@@ -1,0 +1,103 @@
+*{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header img{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100%;
+}
+.phai{
+    height: 100%;
+    width: 100%;
+}
+.phai img{
+    padding-left: 30px;
+    float: right;
+    width: 30%;
+    min-height: 500px;
+}
+
+.trai{
+    text-align: justify;
+    float: left;
+    width: calc(70% - 30px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.name1{
+    font-size: 25px;
+    margin: 20px 0px 30px;
+    color: #FF6C14;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+
+.box2{
+    float: right;
+}
+
+.box2 .name2{
+    font-size: 20px;
+    margin: 20px 0px 30px;
+    color: #FF6C14;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-weight: bold;
+}
+.box2 .line2{
+    text-align: right;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: justify;
+}
+img{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.box3 .line3{
+    color: orangered;
+    font-size: 20px;
+    margin: 20px 0px 30px;
+    font-family: Arial;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box4 .line4{
+    color: orangered;
+    font-size: 20px;
+    margin: 20px 0px 30px;
+    font-family: Arial;
+    text-align: left;
+    font-weight: bold;
+}
+
+.box5 .line5{
+    color: orangered;
+    font-size: 20px;
+    margin: 20px 0px 30px;
+    font-family: Arial;
+    text-align: left;
+    font-weight: bold;
+}
+.box-center{
+    margin: 0 auto;
+    width: 80%;
+}

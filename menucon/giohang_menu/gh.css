@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+input{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.gio-hang{
+border: 1px solid #ddd;
+box-shadow: 2px 2px 4px #ddd;
+padding: 20px;
+margin: 10px auto;
+max-width: 1100px;
+}
+.gio-hang1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+       border-top: 1px solid #ddd ;
+       border-left: 1px solid #ddd;
+       border-right: 1px solid #ddd;
+        padding: 20px;
+        margin: 0px auto;
+        margin-top: 15px;
+        max-width: 1100px;
+}
+.gio-hang2{
+    border-bottom: 1px solid #ddd ;
+       border-left: 1px solid #ddd;
+       border-right: 1px solid #ddd;
+        padding: 20px;
+        margin: 0px auto;
+        max-width: 1100px;
+}
+.item-gio-hang{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item-gio-hang .hinh-anh img{
+    width: 60px;
+    height: 60px;
+}
+.tong-tien{
+    font-size: 13px;
+}
+.item-gio-hang .hinh-anh, .so-luong, .tong-tien, .hanh-dong{
+    flex: 1;
+    margin-left: 20px;
+}
+.item-gio-hang .gia{
+    flex: 2;
+}
+.item-gio-hang .ten{
+    flex: 3;
+}
+.item-gio-hang .gia .gia-goc{
+    font-size: 10px;
+    text-decoration: line-through;
+    color: #aaa;
+}
+.item-gio-hang .gia .gia-ban{
+    color: #f7452e;
+
+}
+.item-gio-hang .hanh-dong i:hover{
+    color: #f7452e;
+}
